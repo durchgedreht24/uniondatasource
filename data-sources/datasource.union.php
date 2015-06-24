@@ -1065,7 +1065,7 @@
 				}
 			}
 
-			$param_pool = array_merge_recursive($param_pool, $datasource->_param_pool);
+			//$param_pool = array_unique(array_merge_recursive($param_pool, $datasource->_param_pool));
 		}
 	}
 
